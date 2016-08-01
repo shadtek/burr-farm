@@ -1,5 +1,4 @@
 var express = require('express');
-var bootstrap = require('bootstrap')
 
 // app setup
 var app = express();
