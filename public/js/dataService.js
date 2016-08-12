@@ -3,7 +3,7 @@ angular.module('burr')
 .service('dataService', function () {
 
 	this.testService = function() {
-		var serviceTest = "Service test."
+		var serviceTest = "...and Eggs"
 		return serviceTest;
 	}
 
