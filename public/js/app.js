@@ -1,1 +1,1 @@
-angular.module('burr', []);
+angular.module('burr', ['firebase']);
