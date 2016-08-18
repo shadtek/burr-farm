@@ -19,6 +19,6 @@ Highlights (selling points)
 
 Animals (Photo Bios)
 
-Breeding (was called features)
+Breeding
 
-Facts (was the footer)
+Facts
