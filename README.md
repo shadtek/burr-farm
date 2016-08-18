@@ -8,3 +8,17 @@ Whitelist Incoming URLs in the app.config with a double asterisk at the end of t
 
 Firebase URL:
 https://burrfamilyfarm.firebaseio.com/
+
+
+
+Home (splash)
+
+About Us
+
+Highlights (selling points)
+
+Animals (Photo Bios)
+
+Breeding (was called features)
+
+Facts (was the footer)
