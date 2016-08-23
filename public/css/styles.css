@@ -67,6 +67,11 @@ p {
 
 .bg-primary {
     background-color: #333;
+    background: url('../media/img/goat1.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .bg-dark {
@@ -77,6 +82,7 @@ p {
 .cursive {
     font-family: 'Dancing Script', cursive;
     text-transform: none;
+    font-weight: bold;
 }
 
 .text-faded {
@@ -122,7 +128,7 @@ footer {
 
 .navbar-header > .navbar-brand {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    color: #9c27b0;
+    color: #B96A6f;
     padding: 15px;
     -webkit-transition: padding .2s ease-in;
     -moz-transition: padding .2s ease-in;
