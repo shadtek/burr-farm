@@ -17,8 +17,3 @@ Animals (Photo Bios)
 Breeding
 
 Facts
-
-TBD Tonight:
-About us "eye"
-Facts
-Hide others until after faire
