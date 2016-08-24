@@ -278,6 +278,16 @@ header .header-content .inner p {
   z-index: 1;
 }
 
+/* Don't show video on mobile */
+@media(max-width:768px) {
+    #video-background {
+        display:none;
+    }
+    #toggleVideo {
+        display:none;
+    }
+}
+
 #video-background.collapsing {
   display:none;
 }
