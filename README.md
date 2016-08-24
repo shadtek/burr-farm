@@ -18,7 +18,7 @@ Breeding
 
 Facts
 
-TBD Tonight: 
-Move Toggle video button to lower left corner
+TBD Tonight:
 About us "eye"
+Facts
 Hide others until after faire

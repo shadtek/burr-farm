@@ -65,9 +65,34 @@ p {
     line-height: 18px;
 }
 
-.bg-primary {
+.highlights {
     background-color: #333;
-    background: url('../media/img/goat1.jpg') no-repeat top center;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('../media/img/wood.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about-us {
+    background-color: #a93333;
+    background: linear-gradient(
+      rgba(169, 51, 51, 0.7), 
+      rgba(169, 51, 51, 0.3)
+    );
+}
+
+.facts {
+    background-color: #333;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../media/img/hay.jpg') no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -89,12 +114,16 @@ p {
     color: rgba(245,245,245,0.7);
 }
 
+.text-muted {
+    color: #fff;
+}
+
 .text-dark {
     color: #111;
 }
 
 .text-primary {
-    color: #B96A6f;
+    color: #fff;
 }
 
 .modal-content {
@@ -286,8 +315,6 @@ header .header-content .inner p {
     margin-left: .5em;
     margin-bottom: .5em; 
 }
-
-
 
 /* Don't show video on mobile unless it's a tablet. 768px is allowed to see the video */
 @media(max-width:767px) {
