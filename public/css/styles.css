@@ -278,8 +278,19 @@ header .header-content .inner p {
   z-index: 1;
 }
 
-/* Don't show video on mobile */
-@media(max-width:768px) {
+#toggleVideo {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    margin-left: .5em;
+    margin-bottom: .5em; 
+}
+
+
+
+/* Don't show video on mobile unless it's a tablet. 768px is allowed to see the video */
+@media(max-width:767px) {
     #video-background {
         display:none;
     }
