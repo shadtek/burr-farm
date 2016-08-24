@@ -88,16 +88,19 @@ p {
 
 .facts {
     background-color: #333;
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('../media/img/hay.jpg') no-repeat top center;
-    -webkit-background-size: cover;
+    background: url('../media/img/milk.jpg') no-repeat top center;
+/*    -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
     background-size: cover;
 }
+
+/*
+    linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ),
+*/
 
 .bg-dark {
     color: #eee;
