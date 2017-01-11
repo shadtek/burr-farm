@@ -21,6 +21,24 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+@font-face {
+  font-family: 'Bobber';
+  src: url('../fonts/Bobber.ttf');
+}
+
+.brand-name {
+    font-family: 'Bobber' !important;
+    color: black;
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff;
+}
+
+@media (max-width: 357px) {
+    .brand-name {
+        text-shadow: none;
+    }
+}
+    
+
 hr {
     max-width: 80px;
     border-width: 3px;
