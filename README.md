@@ -7,14 +7,3 @@ Whitelist incoming URLs, like externally hosted image links, in the app.config w
 Firebase URL:
 https://burrfamilyfarm.firebaseio.com/
 
-Home (splash)
-
-About Us
-
-Highlights (selling points)
-
-Animals (Photo Bios)
-
-Breeding
-
-Facts
