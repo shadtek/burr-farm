@@ -17,25 +17,15 @@ Saratoga Springs, Utah
 https://www.facebook.com/burrfamilyfarm/
 
 --Sprints--
-Need logo
+Pick colors to divvy up sires and dames groups
 
-http://mdbootstrap.com/components/cards/
-	Rotating card for each animal
-		Front
-			Photo
-			Name
-			(Buck only) 
-				Breed
-			(Dames only) 
-				Due date
-				Reserve a buck or a doe --btns
-					http://stackoverflow.com/questions/4782068/can-i-set-subject-content-of-email-with-using-mailto
-			Pedigree --btn
-		Back
-			Pedigree image
-			Name --btn
+Need png logo
 
-	Colors to divvy up sires and dames groups
+Reserve a buck or a doe --improve button
+	http://stackoverflow.com/questions/4782068/can-i-set-subject-content-of-email-with-using-mailto
+	or better yet:
+	http://stackoverflow.com/a/29975611
+
 
 Squareup store --teach how to use it
 	Udderbag

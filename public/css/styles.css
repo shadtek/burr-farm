@@ -601,10 +601,3 @@ img::-moz-selection {
 .ion-social-facebook-outline {
     color: #3B5998;
 }
-
-
-/* Not ready yet */
-
-#three, #four {
-    display: none;
-}
