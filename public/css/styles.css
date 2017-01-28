@@ -29,7 +29,8 @@ body {
 .brand-name {
     font-family: 'Bobber' !important;
     color: black;
-    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff;
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff !important;
+    font-size: 86px !important;
 }
 
 @media (max-width: 357px) {
@@ -37,7 +38,7 @@ body {
         text-shadow: none;
     }
 }
-    
+
 
 hr {
     max-width: 80px;
@@ -86,7 +87,7 @@ p {
 .highlights {
     background-color: #333;
     background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.3)
     ),
     url('../media/img/wood.jpg') no-repeat top center;
@@ -99,9 +100,44 @@ p {
 .about-us {
     background-color: #a93333;
     background: linear-gradient(
-      rgba(169, 51, 51, 0.7), 
+      rgba(169, 51, 51, 0.7),
       rgba(169, 51, 51, 0.3)
     );
+}
+
+.big-about {
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-size: 23px;
+}
+
+/* From the html grab the class like this .classname or for each breeding group do the id like this #breedname */
+.animals {
+    background-color: #333;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.3)
+    ),
+    /* the below is in burr-farm and can be any photo, within reason */
+    url('../media/img/wood.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#mini-nubian {
+    background-color: #333;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.3)
+    ),
+    /* the below is in burr-farm and can be any photo, within reason */
+    url('../media/img/wood.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .facts {
@@ -113,12 +149,7 @@ p {
     background-size: cover;
 }
 
-/*
-    linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.5)
-    ),
-*/
+
 
 .bg-dark {
     color: #eee;
@@ -129,6 +160,7 @@ p {
     font-family: 'Dancing Script', cursive;
     text-transform: none;
     font-weight: bold;
+    font-size: 63px;
 }
 
 .text-faded {
@@ -319,11 +351,11 @@ header .header-content .inner p {
 
 #video-background {
   position: absolute;
-  right: 0; 
+  right: 0;
   bottom: 0;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100%;
-  width: auto; 
+  width: auto;
   height: auto;
   z-index: 1;
 }
@@ -334,7 +366,7 @@ header .header-content .inner p {
     bottom: 0;
     z-index: 2;
     margin-left: .5em;
-    margin-bottom: .5em; 
+    margin-bottom: .5em;
 }
 
 /* Don't show video on mobile unless it's a tablet. 768px is allowed to see the video */
@@ -359,7 +391,7 @@ footer {
     .icon-lg {
         font-size: 80px;
     }
-    
+
     header {
         min-height: 100%;
     }
@@ -389,7 +421,7 @@ footer {
         max-width: 80%;
         font-size: 18px;
     }
-    
+
     section {
         min-height: 600px;
         padding: 100px 0;

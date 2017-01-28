@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css"  />
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 </head>
   <body ng-controller="mainController">
     <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
@@ -74,11 +75,11 @@
         <video autoplay loop muted class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="media/img/pair.jpg" id="video-background">
             <source src="media/video/burr-family-farm.mp4" type="video/mp4">Your browser does not support the video tag. We suggest you upgrade your browser.
         </video>
-        <a  target="_blank" 
-            href="#video-background" 
-            id="toggleVideo" 
-            data-toggle="collapse" 
-            class="btn btn-info video-play-pause" 
+        <a  target="_blank"
+            href="#video-background"
+            id="toggleVideo"
+            data-toggle="collapse"
+            class="btn btn-info video-play-pause"
             ng-click="videoPlaying = !videoPlaying">
             <i class="ion-pause" ng-show="!videoPlaying"></i>
             <i class="ion-play" ng-show="videoPlaying"></i>
@@ -90,8 +91,9 @@
                 <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
                     <h1 class="margin-top-0 cursive">About Us</h1>
                     <br>
+                    <p class="big-about"> We are a family farm by all definitions.</p>
                     <p class="text-faded">
-                        We are a family farm by all definitions. Visitors are welcome, any and all, to come visit us and see how we do things.
+                        We started our farm in February 2015,in our backyard, with 8 chicken. It did not take us long to really love having farm animals. Which lead us to adding more chickens and a goat. At that time we decided we needed more space to be able to farm the way we wanted too. In May of 2015 we moved our chickens and goats to a 2 acres green belt on the boarder of Lehi and Saratoga Springs, Utah. And then we added a horse, cows, pig, and more goats.
                     </p>
                     <a target="_blank" href="#two" class="btn btn-default btn-xl page-scroll">Learn More</a>
                 </div>
@@ -138,12 +140,18 @@
             <div class="row no-gutter">
                 <h1 class="text-center cursive">Our Animals</h1>
                 <h2 class="text-center">We are currently taking reservations for kids for the following breeds:</h2>
-                <h3 class="text-center"><a class="page-scroll" href="#nigerian-dwarf">Nigerian Dwarf</a> | <a class="page-scroll" href="#nigerian-dwarf">Nigerian Dwarf</a> | <a class="page-scroll" href="#nigerian-dwarf">Nigerian Dwarf</a></h3>
+                <!-- mini-nav -->
+                <h3 class="text-center">
+                  <a class="page-scroll" href="#nigerian-dwarf">Nigerian Dwarf</a> |
+                  <a class="page-scroll" href="#mini-nubian">Mini Nubian</a> |
+                  <a class="page-scroll" href="#nigerian-dwarf">Nigerian Dwarf</a>
+                </h3>
                 <h4 class="text-center">Click a breed to see sires and pairings.</h4>
                 <hr>
             </div>
         </div>
     </section>
+    <!-- The below id should match the href in the mini-nav -->
     <section id="nigerian-dwarf" class="no-padding">
         <div class="container-fluid">
             <div class="row no-gutter">
@@ -201,7 +209,85 @@
                             </button>
                         </a>
                     </h4>
-                    
+
+                    <hr>
+                </div>
+                <!-- /dame -->
+            </div>
+        </div>
+    </section>
+    <!-- The below id should match the href in the mini-nav -->
+    <section id="mini-nubian" class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <h1 class="text-center cursive">Mini Nubian</h1>
+                <h2 class="text-center">Kids due ?</h2>
+                <h4 class="text-center">Buck paired with Doe, Doe, Doe</h4>
+                <hr>
+                <!-- buck -->
+                <div class="col-lg-12">
+                    <h3 class="text-center">Sire: 8-Balls Maverick</h3>
+                    <p class="text-center">Nigerian Dwarf</p>
+                    <h3 class="text-center">
+                        <!-- data-src should be the path to the photo: /media/img/name-p.jpg -->
+                        <a target="_blank" href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="/media/img/Mavrick-p.jpg">Pedigree</a>
+                    </h3>
+                    <!-- data-src should be the path to the photo: /media/img/name-i.jpg -->
+                    <a target="_blank" href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="/media/img/Mavrick-i.jpg">
+                        <!-- data-src should be the path to the photo: /media/img/name-i.jpg -->
+                        <!-- alt should be the name of the animal -->
+                        <img src="/media/img/Mavrick-i.jpg" class="img-responsive" alt="8-Balls Maverick">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <hr>
+                </div>
+                <!-- /buck -->
+                <!-- dame -->
+                <div class="col-lg-12">
+                    <h3 class="text-center">Dame: Maleficent</h3>
+                    <p class="text-center">Nigerian Dwarf</p>
+                    <p class="text-center">Kids due February 2017</p>
+                    <h3 class="text-center">
+                        <!-- data-src should be the path to the photo: /media/img/name-p.jpg -->
+                        <a target="_blank" href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="/media/img/Maleficent-p.jpg">Pedigree</a>
+                    </h3>
+                    <!-- data-src should be the path to the photo: /media/img/name-i.jpg -->
+                    <a target="_blank" href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="/media/img/Maleficent-i.jpg">
+                      <!-- data-src should be the path to the photo: /media/img/name-i.jpg -->
+                      <!-- alt should be the name of the animal -->
+                        <img src="/media/img/Maleficent-i.jpg" class="img-responsive" alt="Maleficent">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <h4 class="text-center">Reserve a kid :
+                        <!-- Change the Subject (bewteen the = and the &) and the Body (from the = to the ") -->
+                        <a href="mailto:celestemburr@gmail.com?subject=Maleficent - Buck Reservation&body=Hi, I would like to reserve a buck from Maleficent. My name is: ____. My phone number is: ____">
+                            <button class="btn btn-primary" type="button">
+                              <!-- Change the word available to anything you want, withing reason, keep it small -->
+                              Buck <span class="badge">Available</span>
+                            </button>
+                        </a>
+                        <!-- Change the Subject and the Body -->
+                        <a href="mailto:celestemburr@gmail.com?subject=Maleficent - Doe Reservation&body=Hi, I would like to reserve a doe from Maleficent.">
+                            <button class="btn btn-primary" type="button">
+                              <!-- Change the word available to anything you want, withing reason, keep it small -->
+                              Doe <span class="badge">Available</span>
+                            </button>
+                        </a>
+                    </h4>
+                    <h3 class="text-center">Please include your name and number. *If you are on a computer the above buttons may not work so you can email us at <a>celestemburr@gmail.com?</a></h3>
+
                     <hr>
                 </div>
                 <!-- /dame -->
@@ -260,7 +346,7 @@
                 <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
             </p>
             <img src="//placehold.it/1200x700/222?text=..." id="galleryImage" class="img-responsive" />
-            
+
           </div>
         </div>
         </div>
@@ -283,6 +369,6 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <script src="jq/scripts.js"></script>
-    
+
   </body>
 </html>
