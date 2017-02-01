@@ -6,7 +6,7 @@ angular.module('burr', ['firebase'])
    'self',
    // Allow loading from our assets domain.  Notice the difference between * and **.
    'https://burrfamilyfarm.firebaseio.com/**',
-   'http://i*.imgur.com/**',
+   'https://i*.imgur.com/**',
    'http://utahrenfaire.org/**'
    ]);
  })
