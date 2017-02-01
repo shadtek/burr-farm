@@ -53,7 +53,7 @@ hr.light {
 }
 
 a {
-    color: #B96A6f;
+    color: darkgreen;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -61,7 +61,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #B96A6f;
+    color: darkgreen;
     outline: 0;
 }
 
@@ -99,10 +99,11 @@ p {
 
 .about-us {
     background-color: #a93333;
-    /*background: linear-gradient(
-      rgba(169, 51, 51, 0.7),
-      rgba(169, 51, 51, 0.3)
-    );*/
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('../media/img/wood_3plank.jpg') top center;
 }
 
 .big-about {
@@ -115,10 +116,10 @@ p {
     background-color: #333;
     background: linear-gradient(
       rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, 0.7)
     ),
     /* the below is in burr-farm and can be any photo, within reason */
-    url('../media/img/wood.jpg') no-repeat top center;
+    url('../media/img/wood_3plank.jpg') no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -126,7 +127,7 @@ p {
 }
 
 .bgred {
-  background-color: #a93333;
+  background-color: darkgreen;
 }
 
 .facts {
@@ -200,7 +201,7 @@ footer {
 
 .navbar-header > .navbar-brand {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    color: #B96A6f;
+    color: darkgreen;
     padding: 15px;
     -webkit-transition: padding .2s ease-in;
     -moz-transition: padding .2s ease-in;
@@ -209,11 +210,11 @@ footer {
 
 .navbar-header > .navbar-brand:hover,
 .navbar-header > .navbar-brand:focus {
-    color: #B96A6f;
+    color: darkgreen;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #B96A6f;
+    background-color: darkgreen;
 }
 .navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
     border-color: transparent;
@@ -229,12 +230,12 @@ footer {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #B96A6f;
+    color: darkgreen;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #B96A6f !important;
+    color: darkgreen !important;
     background-color: transparent;
 }
 
@@ -272,7 +273,7 @@ footer {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #B96A6f;
+        color: darkgreen;
     }
 
     .navbar-default.affix {
@@ -282,14 +283,14 @@ footer {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 15px;
-        color: #B96A6f;
+        color: darkgreen;
         padding: 20px;
         letter-spacing: 1px;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #B96A6f;
+        color: darkgreen;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -300,7 +301,7 @@ footer {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #B96A6f;
+        color: darkgreen;
     }
 }
 
