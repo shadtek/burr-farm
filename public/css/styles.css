@@ -99,10 +99,10 @@ p {
 
 .about-us {
     background-color: #a93333;
-    background: linear-gradient(
+    /*background: linear-gradient(
       rgba(169, 51, 51, 0.7),
       rgba(169, 51, 51, 0.3)
-    );
+    );*/
 }
 
 .big-about {
@@ -125,18 +125,8 @@ p {
     background-size: cover;
 }
 
-#mini-nubian {
-    background-color: #333;
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.3)
-    ),
-    /* the below is in burr-farm and can be any photo, within reason */
-    url('../media/img/wood.jpg') no-repeat top center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.bgred {
+  background-color: #a93333;
 }
 
 .facts {
