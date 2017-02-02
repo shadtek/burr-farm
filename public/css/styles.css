@@ -625,3 +625,7 @@ img::-moz-selection {
 .ion-social-facebook-outline {
     color: #3B5998;
 }
+
+hr {
+    margin-bottom: 0px;
+}

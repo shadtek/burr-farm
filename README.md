@@ -17,8 +17,6 @@ Saratoga Springs, Utah
 https://www.facebook.com/burrfamilyfarm/
 
 --Sprints--
-Pick colors to divvy up sires and dames groups
-
 Need png logo
 
 Reserve a buck or a doe --improve button
