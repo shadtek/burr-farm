@@ -7,6 +7,6 @@ var port = 8080;
 // setup the app middlware
 app.use(express.static('./public'));
 
-app.listen(port, function() {
+app.listen(port, 'localhost', function() {
 	console.log('Server up and running on port: ', port);
 });
